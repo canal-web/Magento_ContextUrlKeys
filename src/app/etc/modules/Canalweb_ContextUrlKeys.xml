@@ -1,0 +1,8 @@
+<config>
+  <modules>
+    <Canalweb_ContextUrlKeys>
+        <active>true</active>
+        <codePool>community</codePool>
+    </Canalweb_ContextUrlKeys>
+  </modules>
+</config>

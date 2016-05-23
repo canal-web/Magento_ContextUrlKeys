@@ -1,0 +1,13 @@
+{
+    "name": "canal-web/magento-contexturlkeys",
+    "type": "magento-module",
+    "description": "Automatically generate product url key including custom attribute(s)",
+    "require": {
+    },
+    "authors":[
+      {
+            "name":"Deborah Jean",
+            "email":"deborah@canal-web.fr"
+        }
+    ]
+}

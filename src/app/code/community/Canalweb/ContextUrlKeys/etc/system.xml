@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <sections>
+        <conversaa translate="label" module="contexturlkeys">
+          <label>Conversaa</label>
+          <tab>advanced</tab>
+          <frontend_type>text</frontend_type>
+          <sort_order>120</sort_order>
+          <show_in_default>1</show_in_default>
+          <show_in_website>1</show_in_website>
+          <show_in_store>1</show_in_store>
+          <groups>
+              <urlkeys translate="label" module="contexturlkeys">
+                  <label>Url keys</label>
+                  <frontend_type>text</frontend_type>
+                  <sort_order>1</sort_order>
+                  <show_in_default>1</show_in_default>
+                  <show_in_website>1</show_in_website>
+                  <show_in_store>1</show_in_store>
+                  <fields>
+                      <attributesetids translate="label" module="contexturlkeys">
+                          <label>Attribute set ids</label>
+                          <comment>Attributes sets for which you want customized urls (separate with commas)</comment>
+                          <frontend_type>text</frontend_type>
+                          <sort_order>10</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                      </attributesetids>
+                      <attribute1 translate="label" module="contexturlkeys">
+                          <label>First attribute</label>
+                          <comment>Attribute code for the value you want to add to the product url (after product name)</comment>
+                          <frontend_type>text</frontend_type>
+                          <sort_order>10</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                      </attribute1>
+                      <attribute2 translate="label" module="contexturlkeys">
+                          <label>Second attribute</label>
+                          <comment>If you want more than just one attribute in URL</comment>
+                          <frontend_type>text</frontend_type>
+                          <sort_order>10</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                      </attribute2>
+                      <attribute3 translate="label" module="contexturlkeys">
+                          <label>Third attribute</label>
+                          <comment>If you want more than just one attribute in URL</comment>
+                          <frontend_type>text</frontend_type>
+                          <sort_order>10</sort_order>
+                          <show_in_default>1</show_in_default>
+                          <show_in_website>1</show_in_website>
+                          <show_in_store>1</show_in_store>
+                      </attribute3>
+                  </fields>
+              </urlkeys>
+          </groups>
+      </conversaa>
+    </sections>
+</config>
